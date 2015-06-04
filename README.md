@@ -2,7 +2,7 @@
 
 Python library and command-line application for downloading recipes.
 
-recipe-dl currently utilises plugins written in python that scrape specific websites for recipes.
+recipe-dl currently utilises plugins written in python that scrape specific websites.
 
 ## Install
 
