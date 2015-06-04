@@ -1,0 +1,23 @@
+{{def( recipe_name, ingredients, method )}}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ recipe_name }}</title>
+</head>
+<body>
+
+</body>
+
+<h1>{{ recipe_name }}</h1>
+<ul>
+{{ for ingredients in ingredients }}
+
+    <li>{{ ingredients }}</li>
+
+{{ endfor }}
+</ul>
+<ol>
+{{ for instruction in method }}
+    <li>{{ instruction }}</li>
+{{ endfor }}
+</html>
