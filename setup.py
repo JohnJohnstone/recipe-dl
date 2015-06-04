@@ -1,8 +1,8 @@
 import os
 from setuptools import setup, find_packages
 
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+# def read(fname):
+#     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
 
@@ -10,7 +10,7 @@ setup(
     version='0.1',
 
     description="food recipe downloader"
-    long_description=read(README.rst)
+    # long_description=read(README.rst)
 
     url='https://github.com/Johnstone-Tech/recipe-dl'
 
