@@ -19,6 +19,15 @@ setup(
 
 
     packages=find_packages(),
+    include_package_data = True,
+
+     package_data = {
+        # If any package contains *.txt files, include them:
+        '': ['*.prep'],
+        # And include any *.dat files found in the 'data' subdirectory
+        # of the 'mypkg' package, also:
+        'recipe_dl': ['export/html/*.prep'],
+    },
 
     install_requires=[
 
