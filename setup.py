@@ -9,10 +9,10 @@ setup(
     name='recipe_dl',
     version='0.1',
 
-    description="food recipe downloader"
-    # long_description=read(README.rst)
+    description="food recipe downloader",
+    # long_description=read(README.rst),
 
-    url='https://github.com/Johnstone-Tech/recipe-dl'
+    url='https://github.com/Johnstone-Tech/recipe-dl',
 
     author='John Johnstone',
     author_email='john@johnstone-tech.co.uk',
