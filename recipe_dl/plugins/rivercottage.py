@@ -11,7 +11,7 @@ class Plugin():
         pass
 
 
-    def parse(self, tree):
+    def parse(tree):
 
         name = tree.xpath('//h1/text()')[0]
         timings = tree.xpath('//span[@class="recipe-stat recipe-stat--large"]/span/span/span/text()')
@@ -30,7 +30,7 @@ class Plugin():
         return recipe_dict
 
 
-    def meta(self):
+    def meta():
 
         meta_dict = {
             "name" : self.name,
