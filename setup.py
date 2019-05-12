@@ -10,7 +10,7 @@ setup(
     version='0.1',
 
     description="food recipe downloader",
-    long_description=read(README.rst),
+    long_description=os.read(README.rst),
 
     url='https://github.com/Johnstone-Tech/recipe-dl',
 
