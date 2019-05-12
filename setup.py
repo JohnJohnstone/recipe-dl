@@ -4,13 +4,17 @@ from setuptools import setup, find_packages
 # def read(fname):
 #     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
+with open('README.rst') as readme_file:
+    readme = readme_file.read()
+
 setup(
 
     name='recipe_dl',
     version='0.1',
 
     description="food recipe downloader",
-    long_description=os.read(README.rst),
+    long_description=readme,
+
 
     url='https://github.com/Johnstone-Tech/recipe-dl',
 
