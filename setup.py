@@ -10,12 +10,12 @@ setup(
     version='0.1',
 
     description="food recipe downloader",
-    # long_description=read(README.rst),
+    long_description=read(README.rst),
 
     url='https://github.com/Johnstone-Tech/recipe-dl',
 
     author='John Johnstone',
-    author_email='john@johnstone-tech.co.uk',
+    author_email='jjohnstone@riseup.net',
 
 
     packages=find_packages(),
@@ -26,7 +26,7 @@ setup(
         '': ['*.prep'],
         # And include any *.dat files found in the 'data' subdirectory
         # of the 'mypkg' package, also:
-        'recipe_dl': ['export/html/*.prep'],
+        'recipe_dl': ['formatter/html/*.prep'],
     },
 
     install_requires=[
@@ -40,7 +40,7 @@ setup(
 
     entry_points='''
         [console_scripts]
-        recipe-dl=recipe_dl.cli:get_recipe
+        recipe-dl=recipe_dl.main:main
     ''',
 
 )
